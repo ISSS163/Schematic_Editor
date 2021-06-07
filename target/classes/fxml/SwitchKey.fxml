@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SwitchKey">
+    <children>
+        <Button fx:id="btnOk" defaultButton="true" layoutX="127.0" layoutY="68.0" mnemonicParsing="false" onAction="#closeAction" text="Ok" />
+        <ToggleButton fx:id="btnOnAction" layoutX="57.0" layoutY="14.0" mnemonicParsing="false" onAction="#actionSave" prefHeight="43.0" prefWidth="86.0" text="On" />
+        <Button layoutX="32.0" layoutY="68.0" mnemonicParsing="false" onAction="#deleteElement" text="Delete" />
+    </children>
+</AnchorPane>
